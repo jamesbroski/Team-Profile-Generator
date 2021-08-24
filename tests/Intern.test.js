@@ -8,4 +8,12 @@ describe("Intern", () => {
       expect(newIntern.school).toEqual("DU");
     });
   });
+
+  describe("getRole", () => {
+    it("should return as intern", () => {
+      const newIntern = new Intern();
+
+      expect(newIntern.getRole()).toEqual("Intern");
+    });
+  });
 });
