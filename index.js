@@ -6,8 +6,8 @@ const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
 const generateHTML = require("./src/generateHTML");
 
-function addManager() {
-  inquirer
+const addManager = () => {
+  return inquirer
     .prompt([
       {
         type: "input",
@@ -36,10 +36,10 @@ function addManager() {
 
       employees.push(newManager);
     });
-}
+};
 
-function addEmployee() {
-  inquirer
+const addEmployee = () => {
+  return inquirer
     .prompt([
       {
         type: "list",
@@ -98,7 +98,7 @@ function addEmployee() {
         return employee;
       }
     });
-}
+};
 
 const writeFile = (data) => {
   fs.writeFile("./dist/index.html", data, (err) => {
