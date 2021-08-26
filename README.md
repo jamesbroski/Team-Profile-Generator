@@ -12,3 +12,7 @@ In the end, we dynamically created an HTML file with cards showing the informati
 
 Below is a video showing the application's functionality:
 https://drive.google.com/file/d/1dEk3cwP__sJ7WgpOAXxeTi87WI92_5O8/view
+
+Here is a screenshot of the final HTML page:
+<img width="1266" alt="Screen Shot 2021-08-25 at 10 31 41 PM" src="https://user-images.githubusercontent.com/87332492/130900975-fef545f5-a46b-4358-8155-dd48c8a8e1f3.png">
+
